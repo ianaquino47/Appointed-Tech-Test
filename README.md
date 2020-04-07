@@ -26,3 +26,9 @@ $ cd src
 $ node workerTimetable.js
 ```
 
+> To run some basic tests:
+
+```shell
+$ npm test
+```
+
