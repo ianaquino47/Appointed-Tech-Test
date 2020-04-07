@@ -1,36 +1,28 @@
-<u>Input</u>
+Appointed Tech Test
 
- 1. String
+## Installation  
 
- 2. Has to be read from a file
+### Clone
 
- 3. ID _ @ _ [interval1, interval2, ... , intervaln]
+- Clone this repo to your local machine using `https://github.com/ianaquino47/Appointed-Tech-Test.git`
+- Navigate to the folder using the terminal.
+  
+```shell
+$ git clone https://github.com/ianaquino47/Appointed-Tech-Test.git
+$ cd Appointed-Tech-Test/
+```
 
- 4. Structure of ISO8601
+### Setup
+> Install dependencies using the following code:
 
-    <u>Example of an interval</u> 
+```shell
+$ npm install
+```
 
-    ​	2019-12-31T23:45:00.000-03:00/2020-01-01T10:30:00.000+06:00
+> Then to run the program:
 
-    ​		2019-12-31 -->  YEAR-MONTH-DAY
-
-    ​		T --> separator
-
-    ​		23:45:00.000 --> 11:45 pm
-
-    ​		-03:00 --> Time Zone Designator (3 hours behind UTC) so current time is the same as 		02:45:00.000Z
-
-    ​	
-
-<u>Output</u>			
-
- 1. String
-
- 2. Structure
-
-    <u>Example</u>
-
-    2020-01-01T00:15:00.000Z
-
-    YEAR-MONTH-DAY T HOUR:MINUTE:SECONDS.000Z
+```shell
+$ cd src
+$ node workerTimetable.js
+```
 
